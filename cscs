@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header
+{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    text-transform: uppercase;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    background-color: rgb(235, 240, 244);
+}
+
+.but{
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto; 
+    grid-template-rows: auto; 
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-top: 5%;
+}
+a{
+    text-decoration: dashed;
+    color: black;
+}
+a:hover{
+    color: rgb(81, 70, 179);
+}
+#Fimg
+{
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.Ftxt
+{
+    display:grid;
+    grid-template-columns: auto ;
+    grid-template-rows:auto auto auto;
+}
+.Ftxt a{
+    color: aliceblue;
+}
+.Ftxt p{
+    margin-left:600px;
+   margin-top: -10px;
+   color: rgb(167, 164, 161);
+   
+}
+.Ftxt h1{
+    margin-left:600px;
+   margin-top: -170px;
+}
+#b{
+    text-align: center;
+    padding: 2%;
+    width: 150px;
+    background-color: rgb(75, 73, 110);
+    margin-left: 600px;
+    margin-top:10px;
+}
+.am{
+    text-align: center;
+    display: grid; 
+    grid-template-columns: auto; 
+    grid-template-rows: auto auto; 
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+.am p{
+    color: rgb(167, 164, 161);
+}
+.projects img{
+    width: 80%;
+ }
+ .projects{
+  display: grid; 
+  grid-template-columns: auto auto auto auto  auto auto; 
+  grid-template-rows: auto ; 
+  height: 150px;
+  text-align: center;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  background-color: rgb(75, 73, 110);
+ }
+ .man{
+    display: grid; 
+    grid-template-columns: 40%  60%; 
+    grid-template-rows: auto; 
+    padding-top: 10%;
+    gap: 15%;
+    padding-left:15%;
+    padding-bottom:10%;
+    padding-right: 15%;
+ }
+ .text
+ {
+    display: grid; 
+    grid-template-columns: auto; 
+    grid-template-rows: auto auto auto auto; 
+ }
+ .hr{
+    display: grid; 
+    grid-template-columns: 80% 20%; 
+    grid-template-rows: auto; 
+}
+.hr img{
+    width: 100%;
+}
+.skill{
+    display: grid; 
+    grid-template-columns: auto; 
+    grid-template-rows: auto auto; 
+}
+.skill p{
+    color: rgb(69, 69, 69);
+    font-size: 15px;
+}
+.text h1{
+    font-size: 25px;
+}
+.howork{
+    background-color: rgb(235, 240, 244);
+    display: grid; 
+    grid-template-columns:auto; 
+    grid-template-rows: auto auto auto; 
+}
+.howork h1{
+    font-size: 25px;
+    text-align: center;
+}
+.howork p{
+    color: rgb(167, 164, 161);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.photo{
+    display: grid; 
+    grid-template-columns: 100%; 
+    grid-template-rows: auto; 
+}
+.photo img{
+    margin-left: 28%;
+    margin-bottom: 50px;
+}
+.manyph
+{   
+    margin-top: 15px;
+    display:grid;
+    grid-template-columns: auto auto auto auto  ;
+    grid-template-rows: auto auto ;
+    background-color: aliceblue;
+}
+.manyph img{
+    width: 100%;
+    height: 100%;
+
+}
+.microsoft
+{
+    background-color: rgb(255, 255, 255);
+    display:grid;
+    grid-template-columns: auto auto auto auto  ;
+    grid-template-rows: auto ;
+
+}
+.microsoft img{
+    height:70px;
+}
+.form{
+    background-color: rgb(235, 240, 244);
+    display: grid; 
+    grid-template-columns:auto; 
+    grid-template-rows: auto auto auto auto ; 
+    text-align: center;
+}
+.form h1{
+    font-size: 25px;
+    text-align: center;
+}
+.form p{
+    color: rgb(167, 164, 161);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.form_txt{
+    display: grid; 
+    grid-template-columns:auto; 
+    grid-template-rows: auto auto ; 
+}
+.first
+{
+    display: grid; 
+    grid-template-columns:auto; 
+    grid-template-rows: auto auto; 
+}
+.second
+{
+    display: grid; 
+    grid-template-columns: 50% 50%; 
+    grid-template-rows: auto; 
+    gap: 5%;
+}
+.first input
+{
+    border: none;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 2%;
+}
+.second input
+{
+    border: none;
+    width: 100%;
+    height: 100px;
+    margin-left: 50%;
+}
+.fbut button
+{ 
+    background-color: rgb(75, 73, 110);
+    border-radius: 0%;
+    width:150px;
+    text-align: center;
+    margin-top:3%;
+    margin-bottom: 10%;
+}
+.fbut p{
+    color: aliceblue;
+    text-align: center;
+}
+.footer
+{
+    grid:display;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto ;
+    background-color: rgb(75, 73, 110);
+}
+#man p{
+    color: aliceblue;
+    font-size: 15;
+    font-weight: bold;
+}
+.vk img{
+    width:40px;
+
+}
+.vk{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto ;
+
+}
+.prava p
+{
+    color: aliceblue;
+    font-size: 15;
+    font-weight: 1px;
+}
